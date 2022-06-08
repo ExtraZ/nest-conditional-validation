@@ -1,0 +1,28 @@
+{
+	"name": "nest-conditional-validation",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "npx tsc",
+		"postInstall": "cd example && npm install"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^17.0.40",
+		"ts-node": "^10.8.1",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^4.7.3"
+	},
+	"peerDependencies": {
+		"@nestjs/common": "^8.0.0",
+		"class-transformer": "^0.5.0",
+		"class-validator": "^0.13.0"
+	},
+	"dependencies": {
+		"reflect-metadata": "^0.1.13"
+	}
+}
