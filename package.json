@@ -5,8 +5,9 @@
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"scripts": {
+		"prepack": "npm run build",
 		"build": "npx tsc",
-		"postInstall": "cd example && npm install"
+		"postinstall": "cd example && npm install"
 	},
 	"keywords": [],
 	"author": "",
