@@ -1,7 +1,7 @@
 {
 	"name": "nest-conditional-validation",
 	"version": "0.1.1",
-	"description": "",
+	"description": "A NestJS conditional validation pipe and decorators",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"scripts": {
@@ -9,9 +9,16 @@
 		"build": "npx tsc",
 		"postinstall": "cd example && npm install"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"nest",
+		"nestjs",
+		"validation",
+		"validation-pipe",
+		"pipe",
+		"decorators"
+	],
+	"author": "Emanuel Kedmi",
+	"license": "GNU GPL v3",
 	"devDependencies": {
 		"@types/node": "^17.0.40",
 		"ts-node": "^10.8.1",
