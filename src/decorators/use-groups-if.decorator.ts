@@ -1,13 +1,6 @@
+import { GroupsKeyMetadata, PredicateFn } from "../types";
+import { getGroupsMetadata } from "../metadata";
 import { GROUPS_METADATA } from "../constants";
-
-export type GroupsMetadata = { [key: string | symbol]: GroupsKeyMetadata[] };
-export interface GroupsKeyMetadata {
-	groups: string | string[];
-	predicate: PredicateFn;
-	inverseGroups: string | string[];
-}
-
-export type PredicateFn = (...args: any[]) => boolean;
 
 export interface UseGroupsIfOptions {
 	groups: string | string[];
@@ -49,8 +42,4 @@ export function UseGroupsIf(
 		propertyMetadata.push(options);
 		Reflect.defineMetadata(GROUPS_METADATA, metadata, target.constructor);
 	};
-}
-
-export function getGroupsMetadata(target: Object): GroupsMetadata {
-	return Reflect.getMetadata(GROUPS_METADATA, target) ?? {};
 }

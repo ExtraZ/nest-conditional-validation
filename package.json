@@ -1,36 +1,36 @@
 {
-	"name": "nest-conditional-validation",
-	"version": "0.1.1",
-	"description": "A NestJS conditional validation pipe and decorators",
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-	"scripts": {
-		"prepack": "npm run build",
-		"build": "npx tsc",
-		"postinstall": "cd example && npm install"
-	},
-	"keywords": [
-		"nest",
-		"nestjs",
-		"validation",
-		"validation-pipe",
-		"pipe",
-		"decorators"
-	],
-	"author": "Emanuel Kedmi",
-	"license": "GNU GPL v3",
-	"devDependencies": {
-		"@types/node": "^17.0.40",
-		"ts-node": "^10.8.1",
-		"ts-node-dev": "^2.0.0",
-		"typescript": "^4.7.3"
-	},
-	"peerDependencies": {
-		"@nestjs/common": "^8.0.0",
-		"class-transformer": "^0.5.0",
-		"class-validator": "^0.13.0"
-	},
-	"dependencies": {
-		"reflect-metadata": "^0.1.13"
-	}
+  "name": "nest-conditional-validation",
+  "version": "0.1.2",
+  "description": "A NestJS conditional validation pipe and decorators",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Emanuel Kedmi",
+  "license": "GNU GPL v3",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "npx tsc",
+    "start": "cd example && npm run start:dev"
+  },
+  "keywords": [
+    "nest",
+    "nestjs",
+    "validation",
+    "validation-pipe",
+    "pipe",
+    "decorators"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "ts-node": "^10.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0",
+    "class-transformer": "^0.5.0",
+    "class-validator": "^0.13.0"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
 }

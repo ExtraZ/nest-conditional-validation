@@ -1,5 +1,5 @@
 import { ArgumentMetadata, Injectable, ValidationPipe } from "@nestjs/common";
-import { getGroupsMetadata } from "./decorators";
+import { getGroupsMetadata } from "./metadata";
 
 @Injectable()
 export class ConditionalValidationPipe extends ValidationPipe {

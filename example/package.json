@@ -27,7 +27,7 @@
     "@nestjs/swagger": "^5.2.1",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
-    "nest-conditional-validation": "file:../nest-conditional-validation-0.1.0.tgz",
+    "nest-conditional-validation": "file:../nest-conditional-validation-0.1.2.tgz",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
